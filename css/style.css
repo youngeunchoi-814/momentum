@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "Noto Sans", sans-serif;
+}
+ul {
+  margin-top: 15px;
+}
+li {
+  color: white;
+}
+::placeholder {
+  color: white;
+  font-style: italic;
+  text-align: center;
+}
+#weather {
+  font-size: 20px;
+  padding-left: 90%;
+  margin-top: 25px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.bgImage {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.input1 {
+  width: 250px;
+  height: 30px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 3px solid white;
+  background-color: transparent; /*투명으로*/
+}
+
+.hidden {
+  display: none;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 250px;
+}
+.main #clock {
+  color: white;
+  font-size: 80px;
+  margin-bottom: 20px;
+}
+.main #todo-form {
+  margin-top: 20px;
+}
+.main #quote {
+  display: none;
+}
+.main #weather {
+  color: white;
+}
+.main #todo-list button {
+  background: none;
+  border: none;
+}
