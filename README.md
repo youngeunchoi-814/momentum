@@ -11,3 +11,7 @@
 ✔ 우측 상단에서 위치와 온도 확인
 
 ✔ 새로고침시 랜덤으로 배경화면 변경
+
+# screen 
+![1](https://user-images.githubusercontent.com/79441821/136344394-fc8b6583-bdc8-4ce1-bc48-2a6468a16ab8.PNG)
+
